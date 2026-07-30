@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ml_portfolio:
+    build: .
+    container_name: python_ds_app
+    user: "${UID}:${GID}"
+    ports:
+      - "8888:8888"
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app

@@ -1,0 +1,47 @@
+# === Jupyter Notebooks & Lab ===
+.ipynb_checkpoints/
+.ipython/
+*/.ipynb_checkpoints/
+.jupyter/
+.local/
+.config/
+.cache/
+.npm/
+
+# === Python & virtual environment ===
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Models + heavy data ===
+# Якщо ти не хочеш випадково завантажити гігантські датасети на GitHub:
+# *.csv
+# *.xlsx
+# *.joblib
+# *.pkl
+
+# === IDE ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === System ===
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# === Logs ===
+logs/*
+!logs/.gitkeep

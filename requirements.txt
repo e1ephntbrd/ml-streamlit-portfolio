@@ -1,0 +1,16 @@
+darts
+joblib
+jupyterlab
+matplotlib
+numpy
+pandas
+plotly
+prophet
+scikit-learn
+scipy
+seaborn
+statsmodels
+streamlit
+torch
+ujson
+xgboost
